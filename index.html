@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <style>
+        select {
+            background-color: white;
+            color: black;
+        }
+    </style>
+    <h1 id="title">𝕏</h1>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <div class="form-div">
+         <label id="name-label">Name:</label>
+         <input id="name" type="text" placeholder="Enter your name..." required>
+      </div>
+      <div class="form-div">
+        <label id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email..." required>
+      </div>
+      <div class="form-div">
+        <label id="number-label">Age:</label>
+        <input id="number" type="number" min="0" max="100" placeholder="Enter your age..." required>
+     </div>
+     <div class="form-div">
+        <label id="dropdown-label">How long have you been on the 𝕏 platform?</label>
+          <select id="dropdown" name="dropdown">
+            <option value="">Select length of time</option>
+            <option value="1">Less than 1 year</option>
+            <option value="2">1-2 years</option>
+            <option value="3">3-5 years</option>
+            <option value="4">More than 5 years</option>
+          </select>
+     </div>
+     <div class="form-div">
+        <label id="label-radio">Do you have 𝕏 premium?</label>
+     </div>
+     <div class="form-radio">
+        <label id="yes"><input type="radio" name="choice" value="yes">Yes</label>
+     </div>
+     <div class="form-radio">
+        <label id="no"><input type="radio" name="choice" value="no">No</label>
+     </div>
+     <div class="form-div">
+        <label id="label-checkbox">What would you like to see improved? (Check all that apply)</label>
+      </div>
+      <div class="div-checkbox">
+        <label>
+        <input type="checkbox" name="analytics" value="1">
+        Analytics
+    </label>
+      </div>
+      <div class="div-checkbox">
+        <label>
+        <input type="checkbox" name="bookmarks" value="2">
+        Bookmarks
+    </label>
+      </div>
+      <div class="div-checkbox">
+        <label>
+        <input type="checkbox" name="list" value="3">
+        Lists
+    </label>
+      </div>
+      <div class="div-checkbox">
+        <label>
+        <input type="checkbox" name="spaces" value="4">
+        Spaces
+    </label>
+      </div>
+      <div class="div-checkbox">
+        <label>
+        <input type="checkbox" name="monetization" value="5">
+        Monetization
+    </label>
+      </div>
+      <br/>
+      <div class="form-div">
+        <label id="label-textarea">Additional comments or suggestions:</label>      
+        <textarea name="suggestion" placeholder="Enter your comment(s) here..."></textarea>
+      </div>
+      <div class="form-div">
+        <input id="submit" type="submit" value="Submit">
+      </div>
+    </form>
+  </body>
+</html>

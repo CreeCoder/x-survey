@@ -1,0 +1,117 @@
+body{
+    background-size: contain;
+    background-repeat: repeat;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url("https://i.ibb.co/chxvSGQ/2337149845-huge.jpg");
+    width: 100vw;
+    color: white;
+    margin: 0;
+  }
+  
+  #title {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  
+  #description {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  #survey-form {
+    background-color: black;
+    max-width: 500px;
+    min-width: 300px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  
+  .form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  input, select {
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    width: 90%;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  
+  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: white;
+  }
+  
+  input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: white;
+  }
+  
+  .form-radio, .div-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  textarea {
+    font-size: 16px;
+    width: 90%
+  }
+  
+  input[type="submit"] {
+    width: 90%;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 10px;
+  }
